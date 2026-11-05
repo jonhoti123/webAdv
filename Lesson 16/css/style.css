@@ -18,3 +18,31 @@ div.desc{
     padding: 15px;
     text-align: center;
 }
+
+a[href="https://digitalschool.eu/"]{
+    color: red;
+}
+
+p[class*="ds"]{
+    background-color: blue;
+    color: white;
+    padding: 20px;
+}
+
+div[id~="ds"]{
+    background-color: green;
+    color: white;
+    padding: 20px;
+}
+
+img[title^=",otorcicle"]{
+    border: 2px solid red;
+}
+
+input[placeholder$="name"]{
+    border: 2px solid red;
+}
+
+input[:read-only]{
+    border:2px solid green;
+}
