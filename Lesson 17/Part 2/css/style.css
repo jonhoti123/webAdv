@@ -1,0 +1,18 @@
+:root{
+    --primary-color: #06206a;
+    --secondary-color: #fff;
+    --padiding:20px;
+}
+
+h1{
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    padding: var(--padiding);
+}
+
+p{
+     background-color: var(--padiding);
+     color: var(--secondary-color);
+     padding: var(--padiding);
+}
+
